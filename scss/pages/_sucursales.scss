@@ -1,0 +1,54 @@
+.sucursales img {
+    width: 20px;
+    height: 20px;
+}
+
+.sucursales {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border: solid black 1px
+}
+
+.sucursales p {
+    padding: 0.5rem;
+}
+
+.sucursales__mapa {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.sucursales__mapa iframe {
+    object-fit: cover;
+    width: 90%;
+    height: 250px;
+}
+
+@media(min-width:1200px) {
+    .suc-todas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .sucursales p {
+        padding: 0.5rem;
+        font-size: large;
+    }
+    
+    .sucursales__mapa {
+        width:100%;
+        height: 200px;
+    }
+    .sucursales__mapa iframe {
+        height: 350px;
+    }
+}

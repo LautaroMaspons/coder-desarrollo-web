@@ -1,0 +1,29 @@
+footer {
+    background-color: gray;
+    padding: 1rem;
+    text-align: center;
+    & img {
+        width: 20px;
+    height: 20px;
+    }
+    & iframe {
+        display: none;
+    }
+}
+.foo-comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media(min-width:1200px) {
+    .foo-comp {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer iframe {
+        padding: 1rem;
+        display: inline;
+    }
+}

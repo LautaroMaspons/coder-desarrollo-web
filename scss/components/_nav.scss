@@ -1,0 +1,21 @@
+header nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+nav li {
+    border-style: solid;
+    border-color: red;
+    padding: 1px;
+    font-size: 1.1rem;
+}
+@media(min-width:1200px) {
+
+    header nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

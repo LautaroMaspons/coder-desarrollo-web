@@ -63,6 +63,44 @@ header {
     height: 200px;
   }
 }
+.articulos {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.articulos img {
+  height: 100px;
+  object-fit: cover;
+}
+
+.imagen-art {
+  overflow: hidden;
+  width: auto;
+  height: 150px;
+}
+
+@media (min-width: 1200px) {
+  .productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .imagen-art {
+    overflow: hidden;
+    width: auto;
+    height: 200px;
+  }
+  .articulos img {
+    height: 150px;
+  }
+}
 header nav ul {
   display: flex;
   flex-direction: column;
@@ -133,44 +171,6 @@ main section {
   padding: 1rem;
 }
 
-.articulos {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: black;
-  font-size: 1rem;
-  text-align: center;
-  border-style: solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.articulos img {
-  height: 100px;
-  object-fit: cover;
-}
-
-.imagen-art {
-  overflow: hidden;
-  width: auto;
-  height: 150px;
-}
-
-@media (min-width: 1200px) {
-  .productos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .imagen-art {
-    overflow: hidden;
-    width: auto;
-    height: 200px;
-  }
-  .articulos img {
-    height: 150px;
-  }
-}
 .sucursales img {
   width: 20px;
   height: 20px;
